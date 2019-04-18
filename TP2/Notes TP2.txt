@@ -1,0 +1,23 @@
+Etape 1 : On remarque que comme dans les autres langages,
+on obtient bien une erreur dynamique car les fraises ne 
+sont pas des fruitAPeler.
+
+Pas de Cast nécessaires sur les 3 étapes quand on débroche un fruit 
+type de retour de débroche : fruit
+on crée une instance de FruitAPeler à partir du retour d'une méthode de type fruit
+
+Explication : 
+Here, the static type of n is num and we are assigning it to a variable
+whose annotated type is int. int is a *sub*type of num, so in this case we
+are doing a downcast. In most statically typed languages, you would need an
+explicit cast operator, like:
+
+  int x = (int)n;
+
+Dart is different here. It has something called "assignment compatibility"
+to determine which assignments are valid. Most languages just use the
+normal subtyping rules for this: an assignment is safe if you assign from a
+sub- to a supertype. Dart's assignment compatibility rules also allow
+assigning from a super- to a subtype.
+
+	
