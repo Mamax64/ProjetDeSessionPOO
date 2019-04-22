@@ -166,15 +166,12 @@ class Facade
 	
 	static void monter(Voyageur voyageur, Wagon wagon)
 	{
-        if(wagon is WagonVoyageur)
-        {
-     	   voyageur.monter(wagon.voyage);
-        //voyageur.monter(((WagonVoyageur)wagon).voyage);
-
+  if(wagon is WagonVoyageur){
+    voyageur.monter(wagon.voyage);
 	}
 	else if(wagon is WagonDouble)
 	{
-            voyageur.monter(wagon.voyage);
+    voyageur.monter(wagon.voyage);
 	}
 	else print("Pas montable");   
 	}
