@@ -15,7 +15,7 @@ class InstanceCreator {
     String nomClass = filename.substring(0, filename.indexOf("."));
     nomClass = nomClass.substring(0, 1).toUpperCase() + nomClass.substring(1);
     
-    var input = new File(Directory.current.path + "\\ProjetDeSessionPOO\\TP3\\" + filename);
+    var input = new File(Directory.current.path + "\\" + filename);
     var lines = input.readAsLinesSync();
     
     int i=0;
