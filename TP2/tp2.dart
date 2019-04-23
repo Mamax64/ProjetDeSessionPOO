@@ -50,9 +50,10 @@ void recette4(Orange orange, Banane banane)
 	pele_mele(brochetteB);
 
   appel_a_peau(brochetteFruitAPeler);
-	appel_a_peau(brochetteFruit);
-	print("Appel a peau : " + brochetteFruitAPeler.list.length.toString());
-	print("Appel a peau : " + brochetteFruit.list.length.toString());
+	//appel_a_peau(brochetteFruit);
+	
+  print("Appel a peau : " + brochetteFruitAPeler.list.length.toString());
+	//print("Appel a peau : " + brochetteFruit.list.length.toString());
 
 }
 
