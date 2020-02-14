@@ -1,7 +1,7 @@
-# ProjetDeSessionPOO
-Codes sources de mon projet de POO dans le cadre de mon échange Académique à l'UQAM
+# Projet DeSession POO Avancée : Etude du langage Dart
+Code source de mon projet de principes avancés de programmation orientée object dans le cadre de mon échange Académique à l'UQAM
 
-Instructions d'installation :
+Instructions d'installation de Dart :
 
 Exécuter :
 sudo apt-get install apt-transport-https
