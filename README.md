@@ -1,4 +1,4 @@
-# Projet DeSession POO Avancée : Etude du langage Dart
+# Projet De Session POO Avancée : Etude du langage Dart
 Code source de mon projet de principes avancés de programmation orientée object dans le cadre de mon échange Académique à l'UQAM
 
 Instructions d'installation de Dart :
